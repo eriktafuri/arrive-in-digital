@@ -15,7 +15,19 @@
       "Bash(cp \"/Users/eriktafuri/Downloads/ideias-infinitas-conteudo-arrive_SKILL.md\" \"/Users/eriktafuri/Documents/Projetos | Claude/.claude/skills/ideias-infinitas-conteudo-arrive/SKILL.md\")",
       "Bash(cp \"/Users/eriktafuri/Downloads/inteligencia-de-mercado_SKILL.md\" \"/Users/eriktafuri/Documents/Projetos | Claude/.claude/skills/inteligencia-de-mercado-imobiliario/SKILL.md\")",
       "Bash(cp \"/Users/eriktafuri/Downloads/voz-e-tom-arrive_SKILL.md\" \"/Users/eriktafuri/Documents/Projetos | Claude/.claude/skills/voz-e-tom-arrive/SKILL.md\")",
-      "Bash(cp \"/Users/eriktafuri/Downloads/historia-erik-arrive.md\" \"/Users/eriktafuri/Documents/Projetos | Claude/agents/references/historia-erik-arrive.md\")"
+      "Bash(cp \"/Users/eriktafuri/Downloads/historia-erik-arrive.md\" \"/Users/eriktafuri/Documents/Projetos | Claude/agents/references/historia-erik-arrive.md\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/anthropics/skills/main/frontend-design/SKILL.md\")",
+      "Bash(curl -s \"https://api.github.com/repos/anthropics/skills/contents/\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(d[''''name''''], d[''''type'''']\\) for d in data]\")",
+      "Bash(curl -s \"https://api.github.com/repos/anthropics/skills/contents/skills\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(d[''''name'''']\\) for d in data]\")",
+      "Bash(cp /Users/eriktafuri/Documents/arrive-in-digital/.claude/CLAUDE.md /Users/eriktafuri/Documents/arrive-in-digital/CLAUDE.md)",
+      "Bash(rm /Users/eriktafuri/Documents/arrive-in-digital/.claude/CLAUDE.md)",
+      "Bash(git restore:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"fix: restaura CLAUDE.md deletado acidentalmente:*)",
+      "Bash(git push:*)",
+      "Bash(git commit -m \"refactor: reestrutura CLAUDE.md com contexto completo do negócio:*)"
     ]
   }
 }
